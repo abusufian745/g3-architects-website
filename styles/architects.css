@@ -1,3 +1,9 @@
+*{
+    /* margin: 0px;
+    padding: 0px; */
+}
+
+
 /* work sens font from google fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;800&display=swap');
@@ -196,6 +202,7 @@ main {
     margin-bottom: 10px;
 }
 
+
 /* sponsors style */
 
 .sponsors {
@@ -212,6 +219,19 @@ main {
 
 .sponsors-img-container img {
     width: 165px;
+}
+
+/* footer styles */
+footer{
+    width: 90%;
+    margin: 0 auto;
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
